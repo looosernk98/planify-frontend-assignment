@@ -423,35 +423,42 @@ flex-wrap: wrap;
     width: 400px;
     margin: 10px;
     border-radius: 5px;
-    
+    padding-left: 20px;
 }
 
 /* funding */
 .funding{
     display: flex;
     /* flex-wrap: wrap; */
-    margin: 20px;
-
+    /* margin: 20px; */
 }
 .left{
 
 }
 .left .lb{
-    width:300px;
+    width: 235px;
     height: 70px;
     border: 1px solid;
-   margin: 20px;
+    margin: 19px 19px 19px 8px;
 }
 .card-body table{
     width: 100%;
 }
 
 .card{
-   min-width: 60%;
+   min-width: 70%;
 }
 
 .add-row{
+    position: absolute;
+    right: 95px;
+    margin-top: 5px;
+}
 
+.add-row button{
+    background: #a90ba9;
+    color: white;
+    border-radius: 43px;
 }
 
 /* para2 */
@@ -466,3 +473,70 @@ flex-wrap: wrap;
 .para2 ul{
     background: none;
 } 
+
+
+/* merger */
+.merger{
+    margin: 20px 0px;
+}
+
+/* merger & acuisitions */
+.flex-container-5{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container-5 .box-6{/* border: 1px solid; */margin-right: 21px;width: 290px;padding-left: 20px;border-radius: 8px;background: white;}
+.flex-container-5 .box-6 li{
+  background:white
+}
+.flex-container-5 .box-6 ul {
+
+}
+
+/* subsidiary-models*/
+.subsidiary-models{
+    display: flex;
+    margin: 10px 0px;
+}
+.flex-container-7{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container-7 .box-7{
+    width: 95%;
+    /* border: 1px solid; */
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 8px;
+    background: white;
+}
+.flex-container-7 .box-7 ul{
+    
+}
+.flex-container-7 .box-7 ul li{
+
+background: white;
+}
+
+/* Products & Services */
+.flex-container-8{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container-8 .box-8{
+
+}
+.flex-container-8{
+
+}
+
+/* rating and detail info */
+.last-div{
+    display:flex
+}
+
+.detail-info{
+    border: 1px solid;
+}
+
